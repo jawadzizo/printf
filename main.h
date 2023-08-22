@@ -3,12 +3,8 @@
 
 #include <unistd.h>
 #include <stdarg.h>
-#include "functions1.c"
-#include "functions2.c"
-#include "functions3.c"
-#include "printf.c"
-
-#define BUFFER_SIZE 1024
+#include <limits.h>
+#include <stdlib.h>
 
 
 int _putchar(char c);
@@ -23,6 +19,7 @@ int to_HEXA(unsigned int x);
 int to_hexa(unsigned int x);
 int u_to_string(unsigned int x);
 int print_null();
+int to_hexaa(long int x);
 
 
 #endif
