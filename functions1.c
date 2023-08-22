@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * _putchar - a function to print a character.
  * @c: the character to print.

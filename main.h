@@ -1,3 +1,6 @@
+#ifndef MAIN_H
+#define MAIN_H
+
 #include <unistd.h>
 #include <stdarg.h>
 #include "functions1.c"
@@ -7,8 +10,6 @@
 
 #define BUFFER_SIZE 1024
 
-#ifndef MAIN_H
-#define MAIN_H
 
 int _putchar(char c);
 int _printf(const char * const format, ...);
